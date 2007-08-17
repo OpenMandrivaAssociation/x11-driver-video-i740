@@ -38,6 +38,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/xorg/modules/drivers/i740_drv.la
 %{_libdir}/xorg/modules/drivers/i740_drv.so
-%{_mandir}/man4/i740.4.bz2
+%{_mandir}/man4/i740.*
 
 
