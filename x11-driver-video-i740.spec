@@ -1,8 +1,6 @@
-%define debug_package	%{nil}
-
 Name: x11-driver-video-i740
 Version: 1.1.0
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: The X.org driver for Intel i740
 Group: Development/X11
 URL: http://xorg.freedesktop.org
