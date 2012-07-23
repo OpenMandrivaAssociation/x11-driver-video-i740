@@ -1,5 +1,5 @@
 Name: x11-driver-video-i740
-Version: 1.3.3
+Version: 1.3.4
 Release: 1
 Summary: X.org driver for Intel i740
 Group: System/X11
