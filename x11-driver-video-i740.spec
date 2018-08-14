@@ -20,7 +20,6 @@ x11-driver-video-i740 is the X.org driver for Intel i740.
 %prep
 %setup -qn xf86-video-i740-%{version}
 %apply_patches
-[ -e autogen.sh ] && ./autogen.sh
 
 %build
 %configure
@@ -33,4 +32,3 @@ x11-driver-video-i740 is the X.org driver for Intel i740.
 %doc COPYING
 %{_libdir}/xorg/modules/drivers/i740_drv.so
 %{_mandir}/man4/i740.*
-
