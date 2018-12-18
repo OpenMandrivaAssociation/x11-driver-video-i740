@@ -2,8 +2,8 @@
 
 Summary:	X.org driver for Intel i740
 Name:		x11-driver-video-i740
-Version:	1.3.6
-Release:	2
+Version:	1.4.0
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
@@ -18,15 +18,14 @@ Requires:	x11-server-common %(xserver-sdk-abi-requires videodrv)
 x11-driver-video-i740 is the X.org driver for Intel i740.
 
 %prep
-%setup -qn xf86-video-i740-%{version}
-%apply_patches
+%autosetup -n xf86-video-i740-%{version} -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING
